@@ -1,14 +1,19 @@
 *{
     margin: 0;
     padding: 0;
+    list-style: none;
     font-size: 16px;
     font-family: sans-serif;
-    list-style: none;
+    letter-spacing: 0.7px;
+    word-spacing: 3px;
+    scroll-behavior: smooth;
     text-decoration: none;
-    color: #000;
+    outline: none;
 }
-
-@font-face {
-    font-family: boxicon;
-    src: url(../font/boxicons.woff);
+:root{
+    --background: #1faff1;
+    --border: #1a5dee;
+    --shadow: #1246d6;
+    --brown: #ad9463;
+    --dark-brown: #8d7950;
 }
