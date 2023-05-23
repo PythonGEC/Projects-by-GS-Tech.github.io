@@ -1,0 +1,47 @@
+nav{
+    width: calc(100% - 1rem);
+    height: 1.7rem;
+    background: #000;
+    padding-left: 1rem;
+    
+}
+
+nav .contact,
+nav .contact ul{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+nav .contact ul,nav .contact ul ul{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+nav .contact ul li{
+    color: #fff;
+    font-size: 0.8rem;
+}
+nav .contact ul li{
+    color: antiquewhite;
+    height: fit-content;
+    
+}
+nav .contact ul li:nth-child(1) i{
+    color:  #25D366;
+    font-size: 1.3rem;
+    position: relative;
+    top: 0.2rem;
+}
+nav .contact ul li:nth-child(2) i{
+color: #c71610;
+font-size: 1.3rem;
+text-shadow: 0px 0px 5px #fff,
+0px 0px 5px #fff;
+position: relative;
+top: 0.2rem;
+}
+
+nav .contact ul ul li i{
+    font-size: 0.8rem;
+    color: #fff;
+}
